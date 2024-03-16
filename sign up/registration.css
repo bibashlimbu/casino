@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
+:root {
+  --site-color: linear-gradient(
+    #5b4516,
+    #b4903a 5%,
+    #b4903a,
+    #fffea6,
+    #d6b65f,
+    #b4903a,
+    #b4903a,
+    #5b4516 100%
+  );
+  --font-color: #b5913b;
+  --secondary-font-color: #fff;
+  --card-padding: 3.2rem 2.5rem;
+  --site-background-color1: rgb(11, 11, 11);
+  --site-background-color2: #041a34;
+  --site-font-family: "Baumans", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url(img/login-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-gradient {
+  background: var(--site-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: var(--site-font-family);
+  -webkit-text-fill-color: transparent;
+}
+
+.registration-wrapper {
+  background-color: var(--site-background-color1);
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+  padding: var(--card-padding);
+}
+
+.logo img {
+  max-height: 60px;
+}
+
+.form-control {
+  background: transparent;
+  color: var(--secondary-font-color) !important;
+  border: 1px solid rgba(181, 144, 59, 0.671);
+  padding: 0.8rem 1.25rem;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border: 1px solid var(--font-color);
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:active {
+  background-color: transparent;
+}
+
+.form-control::placeholder {
+  color: #b9b9b9 !important;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group-text {
+  background: transparent;
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
+}
+
+#check-box {
+  accent-color: var(--font-color);
+}
+
+.checkbox label {
+  color: var(--secondary-font-color);
+}
+
+.form-button button {
+  width: 100%;
+  border: none;
+  padding: 0.75rem 1.87rem;
+  background: var(--site-color) !important;
+  border-radius: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+.form-helper a,
+.terms {
+  text-decoration: none;
+  color: var(--font-color);
+}
