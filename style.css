@@ -491,6 +491,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  /* logo */
+  .navbar-brand img {
+    max-width: 6.625rem;
+    max-height: 3.0625rem;
+  }
+
   /* hero section */
   .hero-section {
     min-height: 50vh;
