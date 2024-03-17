@@ -437,6 +437,17 @@ body {
   color: var(--secondary-font-color);
 }
 
+/* preloader */
+#preloader {
+  background: url(img/casino-preloader.gif) no-repeat center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--site-background-color1);
+  position: fixed;
+  z-index: 999;
+}
+
 /* responsive */
 
 @media screen and (max-width: 992px) {
@@ -502,15 +513,9 @@ body {
     text-align: center !important;
     width: 70%;
   }
-}
 
-/* preloader */
-#preloader {
-  background: url(img/casino-preloader.gif) no-repeat center;
-  background-size: 10%;
-  height: 100vh;
-  width: 100%;
-  background-color: var(--site-background-color1);
-  position: fixed;
-  z-index: 999;
+  /* preloader */
+  #preloader {
+    background-size: 20%;
+  }
 }
