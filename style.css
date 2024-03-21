@@ -511,6 +511,11 @@ body {
   }
 
   /* info */
+  .info-card {
+    background-color: var(--site-background-color1) !important;
+    padding: 1.875rem 3.125rem;
+  }
+
   .info-row > *::after {
     display: none;
   }

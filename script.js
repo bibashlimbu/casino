@@ -74,3 +74,13 @@ footerSectionLinks.forEach((footerSectionLink) => {
 const preloader = document.getElementById("preloader");
 console.log(preloader);
 window.addEventListener("load", () => (preloader.style.display = "none"));
+
+//login and register
+const loginRegister = function (id, path) {
+  document.getElementById(`${id}`).addEventListener("click", function () {
+    window.location.href = `${path}`;
+  });
+};
+
+loginRegister("login-btn", "./login/login.html");
+loginRegister("register-btn", "./sign up/registration.html");
