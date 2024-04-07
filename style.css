@@ -14,7 +14,7 @@
   --secondary-font-color: #fff;
   --section-padding: 140px 0;
   --card-padding: 25px;
-  --site-background-color1: rgb(2, 12, 37);
+  --site-background-color1: #020c25;
   --site-background-color2: #041a34;
   --box-shadow: #b4903a;
   --site-font-family: "Baumans", cursive;
@@ -439,8 +439,8 @@ body {
 
 /* preloader */
 #preloader {
-  background: url(img/casino-preloader.gif) no-repeat center;
-  background-size: 10%;
+  background: url(img/1168.gif) no-repeat center;
+  background-size: 7%;
   height: 100vh;
   width: 100%;
   background-color: var(--site-background-color1);
