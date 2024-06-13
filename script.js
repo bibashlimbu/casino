@@ -71,7 +71,7 @@ footerSectionLinks.forEach((footerSectionLink) => {
 });
 
 // preloader
-const preloader = document.getElementById("preloader");
+const preloader = document.getElementById("overlay");
 console.log(preloader);
 window.addEventListener("load", () => (preloader.style.display = "none"));
 
